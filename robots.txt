@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://sharpsites-demo.github.io/dr-charu-bansal-derma-demo/sitemap.xml
