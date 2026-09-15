@@ -1,0 +1,12 @@
+name: Publish reviewed Dr Charu Bansal redesign
+on:
+  push:
+    branches: [gh-pages]
+    paths: [.github/workflows/publish-reviewed-20260915.yml]
+permissions:
+  contents: write
+jobs:
+  publish:
+    uses: SharpSites-demo/sparta-gym-spa-ritik-demo/.github/workflows/publish-reviewed-html.yml@41cd0e039ca25ad2234ffc0978649d9e00875f09
+    with:
+      expected_sha256: 482fd1a573e980d4e468889e946d44abfe1edb509be38c9e2f0b452d9c8bab69
